@@ -1,0 +1,13 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('stage_type') {
+            steps {
+                echo 'stage_type'
+            }
+        }
+           
+           
+    }
+}
